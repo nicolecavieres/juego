@@ -1,0 +1,84 @@
+body{
+	background-color: #F7F2ED;
+}
+h1,h2,h3,h4{
+	font-family: sans-serif;
+	text-align: center;
+	font-family: 'Lobster Two', sans-serif;
+	font-size: 7vh;
+	color: #C6BBB1;
+}
+h2,h3{
+	font-size: 5.5vh;
+	margin:1vh;
+}
+h4{
+	font-size: 7vh;
+	color:#C33F62;
+	margin:1vh;
+}
+.contenedor{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+}
+.contenedor div{
+	width: 33.3%;
+	height: 50vh;
+	border: solid #F7F2ED 1vh;
+	box-sizing: border-box;
+	float: left;
+}
+#piedra{
+	background: url(images/piedra.jpg) no-repeat right center;
+	background-size:100%;
+}
+
+#tijera{
+	background: url(images/tijera.jpg) no-repeat right center;
+	background-size:100%;
+}
+
+#papel{
+	background: url(images/papel.jpg) no-repeat right center;
+	background-size:100%;
+}
+
+#piedra:hover{
+	background: url(images/piedra2.jpg) no-repeat right center;
+	background-size:100%;
+}
+
+#tijera:hover{
+	background: url(images/tijera2.jpg) no-repeat right center;
+	background-size:100%;
+}
+
+#papel:hover{
+	background: url(images/papel2.jpg) no-repeat right center;
+	background-size:100%;
+}
+
+
+
+
+#miImagen{
+	background: url(images/papel.jpg) no-repeat right center;
+	background-size:100%;
+	width: 33.3%;
+	height: 50vh;
+	border: solid #FFECF4 1vh;
+	box-sizing: border-box;
+	float: left;
+	margin:0 auto;
+}
+
+
+@media (max-width: 768px) {
+	.contenedor{
+		width: 100%;
+	}
+	.contenedor div{
+		height: 18vh;
+	}
+}
